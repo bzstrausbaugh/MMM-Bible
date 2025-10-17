@@ -1,9 +1,9 @@
 #verse-reference {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-xlarge);
   text-decoration: underline;
 }
 
 #verse {
-  font-size: var(--font-size-xsmall);
+  font-size: var(--font-size-large);
   text-align: left;
 }
