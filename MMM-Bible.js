@@ -17,7 +17,7 @@ Module.register('MMM-Bible', {
     // Make the initial request to the helper then set up the timer to perform the updates
     _this.sendSocketNotification('GET_TODAYS_BIBLE_VERSE', {});
 
-    setTimeout(_this.getTodaysBibleVerse, _this.nextDay.diff(this.day), _this);
+    setTimeout(_this.getTodaysBibleVerse, 30 * 60 * 1000, _this);
   },
 
   getScripts: function () {
